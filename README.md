@@ -6,5 +6,5 @@ This Burp extension lets you update your headers inside, for example, the Repeat
 make
 # or 
 docker run --rm -u $(id -u):$(id -g) -v $(pwd):/home/gradle gradle:8.7.0-jdk17-alpine gradle build
-./build/libs/burp-update-headers-1.0.jar .
+mv ./build/libs/burp-update-headers-1.0.jar .
 ```
